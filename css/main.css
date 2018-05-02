@@ -1,0 +1,43 @@
+.main-nav{
+  padding-top: 20px;
+  min-height: 100px;
+  opacity: 0.9;
+}
+
+#mobile-nav {
+  opacity: 1 !important;
+}
+.main-header{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 80px;
+  color: #fff;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+  margin-bottom: 3rem;
+
+}
+
+.main-header .showcase{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.input-newsletter {
+  padding-left: 5px !important
+}
+
+.btn-newsletter{
+  height: 46px;
+}
