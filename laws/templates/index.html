@@ -167,21 +167,23 @@
         </div>
         <div class="col s12 m6">
           <div class="card-panel grey lighten-3">
-            <h5>Preencha o formulário abaixo:</h5>
-            <div class="input-field">
-              <input type="email" placeholder="Email" id="email">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field">
-              <input type="text" placeholder="Phone" id="phone">
-              <label for="phone">Phone</label>
-            </div>
-            <div class="input-field">
-              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
-              <label for="message">Message</label>
-            </div>
-            <input type="submit" value="Enviar" class="btn red darken-4">
+            <form action="/messages/" method="post">
+              <h5>Preencha o formulário abaixo:</h5>
+              <div class="input-field">
+                <input type="email" placeholder="Email" id="email" name="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Phone" id="phone" name="phone">
+                <label for="phone">Phone</label>
+              </div>
+              <div class="input-field">
+                <textarea class="materialize-textarea" placeholder="Enter Message" id="message" name="message"></textarea>
+                <label for="message">Message</label>
+              </div>
+              <input type="submit" value="Enviar" class="btn red darken-4">
 
+            </form>
           </div>
         </div>
       </div>
