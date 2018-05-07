@@ -1,4 +1,4 @@
-# laws-site
+# Site do LAWS
 ## Introdução
 Esta é a aplicação do site do LAWS / UFMA
 
@@ -18,3 +18,29 @@ Esta é a aplicação do site do LAWS / UFMA
 
 ### Flask Mail
 [Flask Mail](https://pythonhosted.org/Flask-Mail/) é uma extensão que fornece uma interface simples para configurar o SMTP com seu aplicativo Flask e para enviar mensagens de seus modos de exibição e scripts.
+
+## Install
+Clone o repositório
+
+git clone https://github.com/alanaecp/laws-site.git
+
+Entre na pasta
+
+cd /laws-site
+
+Crie um ambiente virtual
+
+virtualenv nome_do_ambiente -p python3
+
+Ative o ambiente virtual
+
+source nome_do_ambiente/bin/activate
+
+Baixe as dependências
+
+pip3 install -r requirements.txt
+
+Execute o app
+
+gunicorn run:app
+
