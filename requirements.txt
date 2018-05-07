@@ -1,0 +1,4 @@
+Flask==1.0.2
+Flask-Mail==0.9.1
+gunicorn==19.8.1
+pymongo==3.6.1
